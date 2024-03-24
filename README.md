@@ -8,11 +8,11 @@ Integration of the KDE Linux desktop environment on ChromeOS devices
 
 - Then launch the terminal in the application launcher then copy and paste this command to download the current version :
 ```
-  curl -sS https://raw.githubusercontent.com/flowny-dev/Flown/main/versions/current/install.py -o install.py
+curl -sS https://raw.githubusercontent.com/flowny-dev/Flown/main/versions/current/install.py -o install.py
 ```
 - Then Install with the command (this command uses SUDO rights!) :
 ```
-  sudo python3 install.py
+sudo python3 install.py
 ```
 - And follow the instructions given by the program
   
