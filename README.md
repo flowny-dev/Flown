@@ -5,6 +5,7 @@ Integration of the KDE Linux desktop environment on ChromeOS devices
 ## 📦 How to install Flown:
 
 - First of all, if you have not already installed Linux on your machine by following Google's instructions by clicking 👉 [Here](https://support.google.com/chromebook/answer/9145439?hl=fr)
+Install preferably on a fresh container and in the file /home/your-username
 
 - Then launch the terminal in the application launcher then copy and paste this command to download the current version :
 ```
