@@ -30,7 +30,7 @@ class console_messages:
         print(f"❌ {message}")
     
     def flown_info_screen():
-        print(f"""{color.GRAY}Flown - 2.00 [PRVW]
+        print(f"""{color.GRAY}Flown - 2.01 [PRVW]
 Version under development! Thank you for your indulgence{color.END}
             
               
@@ -77,9 +77,7 @@ class config:
         try:
             with open("start-flown", "w") as file: 
                 file.write("""Xephyr :2 -resizeable -fullscreen &
-        sleep 10
         sudo -g root DISPLAY=:2 startplasma-x11 > /dev/null 2>&1 &
-        sleep 10
         echo "Flown to start correctly, to close flown, run "kill-flown" in your terminal""")
             subprocess.run(["sudo", "mv", "start-flown", "/usr/local/bin"], stdout=subprocess.DEVNULL, stderr=subprocess.STDOUT)
             subprocess.run(["sudo", "chmod", "+x", "/usr/local/bin/start-flown"], stdout=subprocess.DEVNULL, stderr=subprocess.STDOUT)
