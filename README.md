@@ -1,4 +1,4 @@
-The upload of the 2.01 update file went wrong unfortunately, I'm going to fix everything!
+The upload of the 2.02 update file went wrong unfortunately, I'm going to fix everything!
 ![logo](/img/logo.png)
 
 Integration of the KDE Linux desktop environment on ChromeOS devices
